@@ -3,13 +3,12 @@
 
 int main(void)
 {
+    // Prompt user for an integer height >= 1 and <= 23
     int height;
-
-// Prompt user for an integer height >= 1 and <= 23
 	do
     {
         printf("height: ");
-        height = get_int("");
+        height = get_int();
     } 
     while (height < 0 || height > 23);
 	printf("Thank you for the valid integer!\n Here is Mario's half-pyramid of height %i:\n", height);
