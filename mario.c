@@ -5,7 +5,7 @@ int main(void)
 {
     // Prompt user for an integer height >= 1 and <= 23
     int height;
-	do
+    do
     {
         printf("height: ");
         height = get_int();
