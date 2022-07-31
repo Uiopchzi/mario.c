@@ -5,9 +5,8 @@ int main(void)
 {
     int height;
 
-	// Prompt user for an integer height >= 1 and <= 23
-
-	 do
+// Prompt user for an integer height >= 1 and <= 23
+	do
     {
         printf("height: ");
         height = get_int("");
@@ -16,7 +15,6 @@ int main(void)
 	printf("Thank you for the valid integer!\n Here is Mario's half-pyramid of height %i:\n", height);
     
     // Generates and draws the half-pyramid
-
     for (int i = 0; i < height; i++)
     {
         for (int j = 0; j < height - i - 1; j++)
